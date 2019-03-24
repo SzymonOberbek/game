@@ -90,7 +90,7 @@ loop = function () {
 
     if((player.x < obstacle.x && player.x + 100 > obstacle.x) && (player.y + 50 >= obstacle.y)){
         alert('Game Over');
-        document.location.reload(true);
+        window.location.reload(true);
     };
     window.requestAnimationFrame(loop);
 
