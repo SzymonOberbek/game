@@ -37,7 +37,7 @@ obstacle = {
     width: 50,
     x: 700,
     y: 500,
-    speed: 1,
+    speed: 5,
     move: function(){
         obstacle.x -= this.speed;
             if (obstacle.x == 0){
