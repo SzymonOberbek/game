@@ -88,9 +88,9 @@ loop = function () {
     context.strokeStyle = 'red';
     setInterval(obstacle.move(), 1000);
 
-    if(player.x < obstacle.x && player.x + 100 > obstacle.x) && (player.y + 50 >= obstacle.y){
+    if((player.x < obstacle.x && player.x + 100 > obstacle.x) && (player.y + 50 >= obstacle.y)){
         alert('Game Over')
-    }
+    };
     window.requestAnimationFrame(loop);
 
 };
